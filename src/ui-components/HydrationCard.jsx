@@ -181,7 +181,7 @@ export default function HydrationCard(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Hydration Date: "
+            children={`${"Hydration Date: "}${hydrationActivity?.Date}`}
             {...getOverrideProps(overrides, "Date")}
           ></Text>
           <Text
