@@ -1,0 +1,16 @@
+type HydrationActivity @model @auth(rules: [{allow: public}, {allow: owner}, {allow: private}]) {
+  id: ID!
+  Date: AWSDate
+  Time: AWSTime
+  HydrationType: String
+  HydrationVolume: Int
+}
+
+type User @model @auth(rules: [{allow: public}, {allow: owner}]) {
+  id: ID!
+  name: String!
+  age: Int
+  hydration: Int
+  image: String
+}
+ 

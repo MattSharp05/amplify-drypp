@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-drypp-staging-e2056-authRole",
+      "UnauthRoleArn": "arn:aws:iam::958513528338:role/amplify-drypp-staging-e2056-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::958513528338:role/amplify-drypp-staging-e2056-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-drypp-staging-e2056-deployment",
+      "UnauthRoleName": "amplify-drypp-staging-e2056-unauthRole",
+      "StackName": "amplify-drypp-staging-e2056",
+      "StackId": "arn:aws:cloudformation:us-east-1:958513528338:stack/amplify-drypp-staging-e2056/4a751e10-e199-11ef-b1b2-128d8d112f9d",
+      "AmplifyAppId": "dgknx9l99hy2w"
+    },
+    "categories": {
+      "api": {
+        "drypp": {}
+      },
+      "auth": {
+        "drypp": {}
+      },
+      "storage": {
+        "s3dryppstorage020227a9": {}
+      }
+    }
+  }
+}

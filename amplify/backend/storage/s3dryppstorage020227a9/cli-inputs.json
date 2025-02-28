@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3dryppstorage020227a9",
+  "bucketName": "drypp-storage-020227a9",
+  "policyUUID": "4f356524",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
